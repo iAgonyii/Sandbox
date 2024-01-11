@@ -13,7 +13,7 @@ contract = w3.eth.contract(abi=json_abi, address=Web3.to_checksum_address(ca))
 
 hex_data = contract.encodeABI(fn_name="mint", args=[
     (HexBytes('0x0000000000000000000000000000000000000000000000000000000000000000'), []),
-    1,
+    5,
     '0x0000000000000000000000000000000000000000',
     HexBytes('0x')
 ])
