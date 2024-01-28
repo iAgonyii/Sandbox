@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+motor
+web3
+python-dotenv
+starlette
