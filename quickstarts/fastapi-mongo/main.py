@@ -32,7 +32,7 @@ app.include_router(users.router, prefix="/users", tags=["Users"])
 
 @app.get("/")
 async def root():
-    return {"message": "Blast Disperse"}
+    return {"message": "Test"}
 
 
 if __name__ == "__main__":
