@@ -23,8 +23,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-if os.getenv('ENV') == 'prod':
-    app.add_middleware(HTTPSRedirectMiddleware)
+# if os.getenv('ENV') == 'prod':
+#     app.add_middleware(HTTPSRedirectMiddleware)
 
 app.include_router(admin.router, prefix="/admin", tags=["Admin"])
 app.include_router(users.router, prefix="/users", tags=["Users"])
