@@ -1,2 +1,3 @@
 eth-abi
 web3
+requests
